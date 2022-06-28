@@ -90,7 +90,7 @@ bash magma_setup.sh gwas_data/[summary_statistics_filename]
 |
 |- /step2
 |       |- [gwas].genes.out
-        |- other files
+|       |- other files
 |
 |- step1.log
 |- step1.genes.annot
