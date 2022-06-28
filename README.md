@@ -12,7 +12,7 @@ TODO
 
 **scDRS Remarks:**
 - https://martinjzhang.github.io/scDRS/index.html#installation
-
+---
 
 ### Setup
 **MAGMA Setup**
@@ -46,7 +46,7 @@ python -m pytest tests/test_CLI.py -p no:warnings
 ```
 3) If all 3 tests pass, then scDRS is properly installed. If not, then idk LMAO
 
-
+---
 ### Folder Hierarchy
 The folder <code>/double_injury_scdrs</code> should look like the following:
 ```
@@ -65,7 +65,7 @@ The folder <code>/double_injury_scdrs</code> should look like the following:
 |- README.md
 |- misc files
 ```
-
+---
 ### Step 1: Running MAGMA
 
 1) Choose GWAS studies such that their summary statistics data contain the following columns:
@@ -96,7 +96,7 @@ bash magma_setup.sh gwas_data/[summary_statistics_filename]
 |- step1.genes.annot
 ```
 
-
+---
 ### Step 2: Running scDRS
 
 TODO:
