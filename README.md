@@ -14,7 +14,7 @@ TODO
 - https://martinjzhang.github.io/scDRS/index.html#installation
 
 
-## Setup
+### Setup
 **MAGMA Setup**
 1) Download MAGMA_mac > v1.10 (https://ctg.cncr.nl/software/magma) and place the folder in this directory.
     - NOTE: MacOS may restrict the running of MAGMA, so ensure that you enable permissions in system preferences accordingly
@@ -47,7 +47,7 @@ python -m pytest tests/test_CLI.py -p no:warnings
 3) If all 3 tests pass, then scDRS is properly installed. If not, then idk LMAO
 
 
-## Folder Hierarchy
+### Folder Hierarchy
 The folder <code>/double_injury_scdrs</code> should look like the following:
 ```
 /double_injury_scdrs
@@ -66,7 +66,7 @@ The folder <code>/double_injury_scdrs</code> should look like the following:
 |- misc files
 ```
 
-## Step 1: Running MAGMA
+### Step 1: Running MAGMA
 
 1) Choose GWAS studies such that their summary statistics data contain the following columns:
 ```
@@ -97,7 +97,7 @@ bash magma_setup.sh gwas_data/[summary_statistics_filename]
 ```
 
 
-## Step 2: Running scDRS
+### Step 2: Running scDRS
 
 TODO:
 - create file to assert required files are in magma
